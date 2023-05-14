@@ -1,0 +1,19 @@
+{
+  "name": "kafka-binance-nodejs-alert-system",
+  "version": "1.0.0",
+  "description": "using apache kafka and nodeJs real time price alert system which can handle 1000 of concurrent alert in real time",
+  "main": "websocket.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Tirth Sidhpura",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "kafka-node": "^5.0.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {}
+}
